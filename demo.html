@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NestFind - Simplest way to Search</title>
+    <link rel="stylesheet" href="demo.css">
+    <link href='https://cdn.boxicons.com/fonts/brands/boxicons-brands.min.css' rel='stylesheet'>
+   <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+<style>
+    .text{
+        color: yellow;
+    }
+</style>
+<body>
+    <!-- Header -->
+     <header class="header">
+  <div class="logo">NestFind</div>
+  <div class="header-button">
+    <a href="#home"><h3>Home</h3></a>
+    <a href="#contact"><h3>Contact</h3></a>
+    <a href="#about"><h3>About Us</h3></a>
+    <a href="#" id="openPopupBtn"><h3>Login|Register</h3></a>
+  </div>
+</header>
+
+<section id="home">
+  <h1>Welcome to NestFind</h1>
+  <p>Your best property finder!</p>
+</section>
+
+</section>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Simplest way to <span class="text">Search</span></h1>
+            <p>Single & Sharing PG accommodation</p>
+            
+            <div class="search-container">
+                <div class="tabs">
+                    <button class="tab-btn active" data-filter="all">All</button>
+                    <button class="tab-btn" data-filter="boys">Boys</button>
+                    <button class="tab-btn" data-filter="girls">Girls</button>
+                </div>
+                
+                <div class="search-box">
+                    <input type="text" placeholder="Enter address e.g. street, city and state or zip" class="search-input">
+                    <button class="search-btn">Search</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newly Added Section -->
+    <section class="newly-added">
+        <h2>Newly Added</h2>
+        
+        <div class="carousel-container">
+            <div class="carousel">
+                <!-- Card 1 -->
+                <div class="card">
+                    <div class="card-image-placeholder"><img src="pg7.jpeg" ></div>
+                    <div class="badge">★</div>
+                    <h3>Boys pg in ballabgarh ca...</h3>
+                    <p class="location"> Ballabgarh, Faridabad</p>
+                    
+                    <div class="card-details">
+                        <div class="detail-row">
+                            <span class="label">Accommodation</span>
+                            <span class="value">Boys</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="label">For</span>
+                            <span class="value">Working Professionals</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="label">Suitable For</span>
+                        </div>
+                    </div>
+                    
+                    <div class="price">Price: <strong>Rs.5999.00</strong></div>
+                    <div class="owner">👤 Sharma PG House</div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="card">
+                    <div class="card-image-placeholder"><img src="pg4.jpeg"></div>
+                    <div class="badge">★</div>
+                    <h3>PG near metro station se...</h3>
+                    <p class="location">📍 Sector 11, Faridabad</p>
+                    
+                    <div class="card-details">
+                        <div class="detail-row">
+                            <span class="label">Accommodation</span>
+                            <span class="value">Boys</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="label">For</span>
+                            <span class="value">Working Professionals</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="label">Suitable For</span>
+                        </div>
+                    </div>
+                    
+                    <div class="price">Price: <strong>Rs.6000.00</strong></div>
+                    <div class="owner">👤 Sharma PG House</div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="card">
+                    <div class="card-image-placeholder">]<img src="pg2.jpg"></div>
+                    <div class="badge">★</div>
+                    <h3>Single Luxury Room avail...</h3>
+                    <p class="location">📍 Sector 11, Faridabad</p>
+                    
+                    <div class="card-details">
+                        <div class="detail-row">
+                            <span class="label">Accommodation</span>
+                            <span class="value">Boys</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="label">For</span>
+                            <span class="value">Students & Working Professionals</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="label">Suitable For</span>
+                        </div>
+                    </div>
+                    
+                    <div class="price">Price: <strong>Rs.5999.00</strong></div>
+                    <div class="owner">👤 Mohan Sharma 8 months ago</div>
+                </div>
+            </div>
+            
+            <button class="carousel-btn prev">❮</button>
+            <button class="carousel-btn next">❯</button>
+        </div>
+        
+        <div class="carousel-dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </section>
+
+    <!-- Why Choose PG Choice Section -->
+    <section class="why-choose">
+        <h2>Why choose PG choice?</h2>
+        
+        <div class="features-grid">
+            <!-- Feature 1 -->
+            <div class="feature">
+                <div class="feature-icon">🤝</div>
+                <h3>No Brokerage</h3>
+                <p>Search 1000+ PG Accommodation here without any brokerage or commission charge</p>
+            </div>
+
+            <!-- Feature 2 -->
+            <div class="feature">
+                <div class="feature-icon">🏠</div>
+                <h3>Affordable Rents</h3>
+                <p>Single and Shared rooms at low security deposits, instant move-in with affordable rents.</p>
+            </div>
+
+            <!-- Feature 3 -->
+            <div class="feature">
+                <div class="feature-icon">👥</div>
+                <h3>PG Owner?</h3>
+                <p>List your PG properties with us and Get lots of fresh leads</p>
+            </div>
+
+            <!-- Feature 4 -->
+            <div class="feature">
+                <div class="feature-icon">🌍</div>
+                <h3>Cities in India</h3>
+                <p>Newly Accommodation added in every hour to help PG finder right Accommodation.</p>
+            </div>
+        </div>
+    </section>
+
+
+<!-- About Us Section -->
+<div id="about" class="about-section">
+  <div class="about-content">
+    <div class="about-text">
+      <h2>About <span>NestFind</span></h2>
+      <p>
+        Welcome to <strong>NestFind</strong> — your trusted companion for finding the 
+        best and most affordable <strong>Paying Guest (PG)</strong> rooms.  
+        We make your search simple, fast, and reliable by connecting you 
+        with verified listings across the city. Whether you’re a student 
+        or a working professional, NestFind helps you find a cozy, budget-friendly 
+        place that truly feels like home.
+      </p>
+      <p>
+        Our mission is to remove the stress from house-hunting by offering 
+        a seamless experience — browse, compare, and connect with PG owners 
+        instantly. Comfort and affordability are just a click away!
+      </p>
+    </div>
+
+    <div class="about-image">
+      <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800" alt="NestFind PG Rooms">
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="contact-section" id="contact">
+    <h2>Contact Us</h2>
+    <p>We’d love to hear from you! Fill out the form below and we’ll get in touch soon.</p>
+    <!--Contact Us-->
+    <div class="contact-container">
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+
+      <div class="contact-info">
+        <h3>Get in Touch</h3>
+        <p><strong>Email:</strong> example@email.com</p>
+        <p><strong>Phone:</strong> +91 98765 43210</p>
+        <p><strong>Address:</strong> 19 KM stone CHAUMUHAN MATHURA</p>
+      </div>
+    </div>
+  </div>
+  <!--login/register-->
+  <!-- LOGIN / REGISTER POPUP -->
+<div class="popup-overlay" id="popupOverlay">
+  <div class="popup-box">
+    <span id="closePopupBtn">&times;</span>
+    <div class="form-container">
+      <div class="tabs">
+        <button id="loginTab" class="active">Login</button>
+        <button id="registerTab">Register</button>
+      </div>
+
+      <!-- Login Form -->
+      <form id="loginForm" class="form active">
+        <input type="text" placeholder="Username" required>
+        <input type="password" placeholder="Password" required>
+        <button type="submit">Login</button>
+      </form>
+
+      <!-- Register Form -->
+      <form id="registerForm" class="form">
+        <input type="text" placeholder="Username" required>
+        <input type="email" placeholder="Email" required>
+        <input type="password" placeholder="Password" required>
+        <button type="submit">Register</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+    <footer class="footer">
+        <!-- Logo and Country Selector -->
+        <div class="footer-header">
+            <div class="logo" style="color:white">NestFind</div>
+            <div class="social-icons">
+                <a href="#" class="social-link">f </a>
+                <a href="#" class="social-link">𝕏</a>
+                <a href="#" class="social-link">▶</a>
+                <a href="#" class="social-link">in</a>
+            </div>
+        </div>
+
+        <!-- Footer Main Content -->
+        <div class="footer-main">
+            <!-- Company Column -->
+            <div class="footer-column">
+                <h4 class="column-title">Company</h4>
+                <ul class="footer-links">
+                    <li><a href="#jobs">Jobs</a></li>
+                    <li><a href="#investor">Investor relations</a></li>
+                    <li><a href="#mobile">Mobile apps - searching on the go</a></li>
+                    <li><a href="#hoteliers">Nestfind for hoteliers</a></li>
+                </ul>
+            </div>
+
+            <!-- Help Column -->
+            <div class="footer-column">
+                <h4 class="column-title">Help</h4>
+                <ul class="footer-links">
+                    <li><a href="#how">Learn how Nestfind works</a></li>
+                    <li><a href="#terms">Terms and conditions</a></li>
+                    <li><a href="#legal">Legal information</a></li>
+
+                    <li><a href="#privacy">Privacy notice</a></li>
+
+                </ul>
+            </div>
+
+            <!-- Newsletter Column -->
+            <div class="footer-column newsletter">
+                <h2 class="newsletter-title">Get exclusive inspiration for your next stay – subscribe to our newsletter.</h2>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Email address" class="email-input" required>
+                    <button type="submit" class="subscribe-btn">Subscribe</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <p class="company-info">19KM STONE CHAUMUHAN, MATHURA</p>
+            <h1 class="copyright">Copyright 2025 NestFind | All rights reserved.</h1>
+        </div>
+    </footer>
+    <script src="demo.js"></script>
+</body>
+</html>
