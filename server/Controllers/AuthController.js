@@ -57,7 +57,7 @@ const login = async (req, res) => {
         }
 
         /* Generate JWT token */
-        const token = jwt.sign({ id: user._id }, process.env.JWT_SECERET)
+        const token = jwt.sign({ id: user._id }, process.env.JWT_SECRET)
         delete user.password // data decode karke password destructurre kar liya hai
 
         res.status(StatusCodes.OK).json({success: true, token, user })
